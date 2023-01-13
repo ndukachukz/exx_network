@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary font-body bg-cover bg-no-repeat;
+    /*     background: linear-gradient(
+        0deg,
+        #00dda833,
+        #00dda833
+      ),
+      url(/57.jpg); */
+  }
+}
+
+@layer components {
+  .nav {
+  }
+  .card {
+    @apply bg-white rounded-[10px] p-5;
+  }
+  .card-title {
+    @apply font-bold text-sm mb-3;
+  }
+
+  .divider {
+    @apply mx-2;
+  }
+}
